@@ -22,4 +22,12 @@ evil dead
 
 run `node index.js`
 
-after a few moments you should have a new file called `output.csv` that will contain a list of all movies that came back positive, and a link to their search page. This program doesn't do any deeper validation that seeing if search results came back, so there is a chance for you to get false positives, but this is a good first pass if you're trying to look for a filmmakers LD filmography.
+after a few moments you should have a new file called `output.csv` that will contain a list of all movies that came back positive, and a link to their search page. 
+
+```
+carrie, https://www.lddb.com/search.php?search=carrie&sort=title&format=ld
+evil dead, https://www.lddb.com/search.php?search=evil+dead&sort=title&format=ld
+fire walk with me, https://www.lddb.com/search.php?search=fire+walk+with+me&sort=title&format=ld
+```
+
+This program doesn't do any deeper validation that seeing if search results came back, so there is a chance for you to get false positives, but this is a good first pass if you're trying to look for a filmmakers LD filmography.
